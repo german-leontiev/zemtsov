@@ -78,4 +78,4 @@ jobs:
             docker stop zemtsov || true
             docker rm zemtsov || true
             echo "Starting a new container..."
-            docker run -dit --name zemtsov -p 3000:3000 ${{ secrets.DOCKER_HUB_USERNAME }}/zemtsov:latest
+            docker run -dit --name zemtsov -p 3001:80 ${{ secrets.DOCKER_HUB_USERNAME }}/zemtsov:latest
