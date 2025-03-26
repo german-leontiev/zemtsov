@@ -1,0 +1,49 @@
+:root {
+    --bg: #121212;
+    --card-bg: #1e1e1e;
+    --text: #f1f1f1;
+    --accent: #ffffff;
+  }
+  
+  body {
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    font-size: 18px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--accent);
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .exhibit {
+    background: var(--card-bg);
+    margin-bottom: 24px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    text-align: center;
+  }
+  
+  .exhibit img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .exhibit audio {
+    width: 100%;
+    margin-top: 15px;
+    zoom: 1.3;
+  }
+  
+  
