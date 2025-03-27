@@ -6,7 +6,7 @@ import './index.css';
 const App = () => {
   return (
     <div className="container">
-      <h1>Выставка</h1>
+      <h1>Выставка Александра Земцова "Невидимое - вечно"</h1>
       {exhibits.map((item, index) => (
         <Exhibit key={index} {...item} />
       ))}
